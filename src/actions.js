@@ -13,7 +13,7 @@ export const decreaseItem = id => {
   return {type: DECREASE, payload: {id}}
 }
 
-// ----- not working
+// ----------- or replace increase and decrease
 export const toggleAmount = (id, toggle) => {
   return {type: TOGGLE_AMOUNT, payload: {id, toggle}}
 }
